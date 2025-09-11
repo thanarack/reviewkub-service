@@ -1,0 +1,13 @@
+[package]
+name = "reviewkub-service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.11.0"
+diesel = { version = "2.2.12", features = ["postgres", "r2d2", "chrono", "uuid", "serde_json"] }
+dotenvy = "0.15.7"
+diesel_migrations = "2.2.0"
+r2d2 = "0.8"
+thiserror = "1"
+uuid = { version = "1.13.0", features = ["v4"] }
