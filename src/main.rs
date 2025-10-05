@@ -2,9 +2,9 @@ use actix_web::{App, HttpServer};
 use dotenvy::dotenv;
 
 mod db;
-mod web;
 mod models;
 mod schema;
+mod web;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
